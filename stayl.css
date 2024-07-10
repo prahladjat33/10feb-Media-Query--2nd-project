@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(16, 10, 54);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+
+
+
+/* haed section home,more many option */
+
+.list {
+    display: flex;
+    font-size: larger;
+
+}
+.home-list1{
+    background-color: blue;
+    display: flex;
+    font-size: large;
+    border-radius: 5px;
+}
+ 
+.home-list{
+    display: flex;
+    list-style: none;
+    
+    gap: 20px;
+    justify-content: end;
+    padding-top: 10px;
+    padding-right: 40px;
+    
+}
+.option{
+    display: none;
+
+}
+
+
+   /* container all css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 400px;
+    
+    width: 50vw;
+    height: 125vh;
+     
+    
+
+}
+
+
+         /* camputer and names */
+
+.main-hed{
+    display: flex;
+    
+    
+}
+
+
+.list-item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    margin-right: 20px;
+    font-weight: 50;
+    
+    
+}
+ 
+.list-1{
+    display: flex;
+    margin: 0 ,3px;
+    padding: 7px;
+}
+
+.hi {
+    display: flex;
+    font-size: x-large;
+    margin-top: 10px;
+    font-family: 'Poppins'
+}
+  
+.list-item h1 {
+    display: flex;
+    font-size: xx-large;
+    margin: 5px;
+}
+
+.list-item h2  {
+    margin-left: 5px;
+    color: rgb(165, 144, 25);
+}
+
+.camp-imge img {
+    height: 330px;
+}
+
+   /* project photoes */
+
+   .sect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   }
+
+
+.top { 
+    margin-top: 50px;
+    display: flex;
+    font-size: x-large;
+    
+
+}
+
+.line {
+    height: 5px;
+    width: 85px;
+    background-color: blue;
+    border-radius: 15px;
+}
+
+.photo {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 5px
+}
+
+.photo1 {
+    margin: 20px;
+
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    
+}
+
+.text {
+    display: flex;
+    font-size: xx-large;
+    
+}
+
+.line2 {
+    height: 5px;
+    width: 155px;
+    background-color: blue;
+    border-radius: 15px;
+}
+
+.fonts {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+ .fonts img {
+    margin: 4px;
+ }
+
+
+ @media screen  and (max-width :1024px) {
+
+    .home-list {
+        display: none;
+    }
+    .option {
+        display: block;
+        margin-left: 90px;
+        margin-top: 20px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    .main-hed {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .camp-imge img {
+    height: 135px;
+    margin-left: 30px;
+    }
+
+    .photo {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .photo1  img{
+        height: 130px;
+    }
+
+
+ }
